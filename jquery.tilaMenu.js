@@ -34,7 +34,7 @@
                 }
                 var h2id = Math.floor((Math.random() * 999999) + 100000);
                 $(this).attr('id','autoH2-'+h2id);
-                $(config.menu).append(config.beforeItem+'<a href="#'+config.idPrefix+'-'+h2id+'">'+h2content+'</a>'+config.afterItem);
+                $(config.menu).append(config.beforeItem+'<a href="#'+config.idPrefix+'-'+h2id+'" title="'+h2content+'">'+h2content+'</a>'+config.afterItem);
             });
         });
     };
